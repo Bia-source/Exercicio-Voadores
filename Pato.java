@@ -11,5 +11,6 @@ public class Pato implements Voador {
     public void voar() {
        energia -= 5 ;
         System.out.println("Estou voando como um pato");
+        System.out.println("Energia: " + energia );
     }
 }

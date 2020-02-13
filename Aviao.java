@@ -11,5 +11,6 @@ public class Aviao implements Voador {
     public void voar() {
         horasDeVoo += 13;
         System.out.println("Estou voando como um avião");
+        System.out.println("Horas voadas: " + horasDeVoo + "h");
     }
 }

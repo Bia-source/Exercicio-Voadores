@@ -11,5 +11,6 @@ public class SuperHomem implements Voador {
     public void voar() {
         experiencia += 3;
         System.out.println("Estou voando como um campeão");
+        System.out.println("Experiencia: " + experiencia );
     }
 }

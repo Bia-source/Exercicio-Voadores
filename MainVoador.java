@@ -12,6 +12,7 @@ public class MainVoador {
         torre.adicionarVoador(superHVoador);
 
         torre.voemTodos();
+        torre.voemTodos();
 
     }
 }
